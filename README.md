@@ -30,7 +30,7 @@ A curated list of openly available datasets covering MRI, CT, PET, and Ultrasoun
 | Dataset Name | Modality | Task(s) | No. of Subjects / Scans | Access Link |
 |--------------|----------|---------|--------------------------|-------------|
 | BraTS (Brain Tumor Segmentation Challenge) | MRI (T1, T1Gd, T2, FLAIR) | Segmentation, Classification | ~2000+ cases | [BraTS](https://www.med.upenn.edu/cbica/brats/) |
-| LUNA16 | CT | Nodule Detection, Classification | 888 low-dose CT scans | [LUNA16](https://luna16.grand-challenge.org/Data/) |
+| LUNA16 | CT | Nodule Detection, Classification | 888 low-dose CT scans | [LUNA16] (https://luna16.grand-challenge.org/Data/) |
 | LiTS (Liver Tumor Segmentation Challenge) | CT | Liver & Tumor Segmentation | 131 CT scans | [LiTS](https://www.kaggle.com/datasets/andrewmvd/lits-png) |
 | KiTS (Kidney Tumor Segmentation Challenge) | CT | Kidney & Tumor Segmentation | 300+ CT scans | [KiTS](https://kits21.kits-challenge.org/) |
 | AMOS22 | CT + MRI | Multi-Organ Segmentation | 500+ CT/MRI scans, 15 organs | [AMOS22](https://amos22.grand-challenge.org/) |
