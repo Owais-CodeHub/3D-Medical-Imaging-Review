@@ -29,15 +29,17 @@ A curated list of openly available datasets covering MRI, CT, PET, and Ultrasoun
 
 | Dataset Name | Modality | Task(s) | No. of Subjects / Scans | Access Link |
 |--------------|----------|---------|--------------------------|-------------|
-| BraTS (Brain Tumor Segmentation Challenge) | MRI (T1, T1Gd, T2, FLAIR) | Segmentation, Classification | ~2000+ cases | [BraTS](https://www.med.upenn.edu/cbica/brats/) |
-| LUNA16 | CT | Nodule Detection, Classification | 888 low-dose CT scans | [LUNA16](https://luna16.grand-challenge.org/Data/) |
-| LiTS (Liver Tumor Segmentation Challenge) | CT | Liver & Tumor Segmentation | 131 CT scans | [LiTS](https://www.kaggle.com/datasets/andrewmvd/lits-png) |
-| KiTS (Kidney Tumor Segmentation Challenge) | CT | Kidney & Tumor Segmentation | 300+ CT scans | [KiTS](https://kits21.kits-challenge.org/) |
-| AMOS22 | CT + MRI | Multi-Organ Segmentation | 500+ CT/MRI scans, 15 organs | [AMOS22](https://amos22.grand-challenge.org/) |
-| MSD (Medical Segmentation Decathlon) | CT, MRI | Multi-organ Segmentation | 10 tasks, 2,633 scans | [MSD](http://medicaldecathlon.com/) |
-| TCIA Collections | CT, MRI, PET | Multi-task | 50+ curated datasets | [TCIA](https://www.cancerimagingarchive.net/) |
-| ADNI | MRI, PET | Alzheimer’s Progression | 3000+ scans | [ADNI](http://adni.loni.usc.edu/) |
-| UK Biobank Imaging | MRI, CT, Ultrasound | Population Study | 100,000+ participants | [UK Biobank](https://www.ukbiobank.ac.uk/) |
+| BraTS (Brain Tumor Segmentation Challenge) | MRI (T1, T1ce, T2, FLAIR) | Segmentation, Classification | ~2000+ cases | https://www.med.upenn.edu/cbica/brats/ |
+| LUNA16 (LIDC-IDRI subset) | CT | Nodule Detection, Classification | 888 scans | Challenge: https://luna16.grand-challenge.org/ • Data: https://luna16.grand-challenge.org/Data/ |
+| Medical Segmentation Decathlon (MSD) | CT, MRI | Multi-organ Segmentation (10 tasks) | 2,633 scans | https://medicaldecathlon.com/ |
+| AMOS22 (Abdominal Multi-Organ Segmentation) | CT + MRI | Multi-organ Segmentation (15 organs) | 500 CT + 100 MRI | Challenge: https://amos22.grand-challenge.org/ • Data: https://zenodo.org/records/7262581 |
+| The Cancer Imaging Archive (TCIA) – Portal | CT, MRI, PET | Multi-task (various collections) | Many collections | https://www.cancerimagingarchive.net/ |
+| LIDC-IDRI (TCIA collection) | CT | Lung Nodule Detection/Analysis | 1,010 subjects | https://www.cancerimagingarchive.net/collection/lidc-idri/ |
+| BraTS-AFRICA (TCIA collection) | MRI (T1, T1ce, T2, FLAIR) | Brain Tumor Segmentation | 146 cases | https://www.cancerimagingarchive.net/collection/brats-africa/ |
+| MedMNIST v2 (3D subsets) | 3D biomedical (28×28×28) | Classification | 6 3D datasets (~10k total) | https://medmnist.com/v2 |
+| MedShapeNet | 3D anatomical shapes | Segmentation, Classification, Reconstruction | 100,000+ shapes | https://medshapenet.ikim.nrw/ |
+| OpenNeuro | MRI/fMRI/MEG/EEG/PET | Various neuroimaging tasks | 600+ datasets | https://openneuro.org |
+
 
 ---
 
