@@ -69,7 +69,7 @@ If you use this repository, please cite:
 ```bibtex
 @article{owais2025voxels,
   title={Voxels to Vision: A Comprehensive Review Tracing the Evolution of 3D Medical Imaging Analysis from Classic CNNs to Emerging Foundation Models},
-  author={Owais, Muhammad and Zubair, Muhammad and Abdul Kareem, Daniya Najiha and Naseer, Sana Akhtar and Alam, Mehbub and Ahmad, Mubashir and Hussain, Irfan},
-  journal={},
+  author={Muhammad Owais, Muhammad Zubair, Daniya Najiha Abdul Kareem, Sana Akhtar Naseer,  Mehbub Alam, Mubashir Ahmad, and Irfan Hussain},
+  journal={Preprint},
   year={2025}
 }
