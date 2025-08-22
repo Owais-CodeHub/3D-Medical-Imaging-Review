@@ -1,35 +1,31 @@
-# 3D-Medical-Imaging-Review
+# 🌐 3D-Medical-Imaging-Review
 
 ## Voxels to Vision: A Comprehensive Review Tracing the Evolution of 3D Medical Imaging Analysis from Classic CNNs to Emerging Foundation Models
 
+---
+
+### 📖 About This Review
 This repository serves as a companion resource to our review paper *"Voxels to Vision"*.  
-The review traces the evolution of **3D medical image analysis**, highlighting how the field has progressed from early deep learning architectures such as CNNs and RNNs, to generative models (VAEs, GANs, diffusion models), and more recently to large-scale **foundation models** that integrate vision, language, and multimodal pre-training.  
 
-Our work provides:
-- A **historical perspective** on how 3D medical imaging analysis has evolved over the last decade.  
-- A **comparative discussion** of strengths, limitations, and applications of each paradigm across core tasks such as segmentation, detection, classification, reconstruction, and report generation.  
-- Insights into **emerging research frontiers** including multimodal fusion, generalization across institutions, and the integration of trustworthy AI in clinical practice.  
-- A curated collection of **resources** to support researchers and practitioners in the field.  
+The paper traces the **evolution of 3D medical image analysis**, highlighting the transformation from early deep learning architectures to modern foundation models. Specifically, it covers:  
+- 🏛️ **Classic Deep Learning Models** – CNNs, RNNs, and early Transformers  
+- 🧪 **Generative Models** – VAEs, GANs, and diffusion models for synthesis, augmentation, and reconstruction  
+- 🌍 **Foundation Models** – multimodal architectures that integrate vision, language, and large-scale pre-training for universal medical imaging tasks  
 
----
-
-## 📚 Available Resources in This Repository
-
-- 📊 **3D Medical Imaging Datasets**  
-  A curated list of publicly available datasets (MRI, CT, PET, Ultrasound) for tasks such as tumor segmentation, organ delineation, disease classification, and population-level studies. Each entry includes dataset description, modality, tasks, and official access links.  
-
-- 🤖 **AI Models and GitHub Repositories**  
-  A selection of open-source projects related to **3D deep learning**, covering medical-specific frameworks (e.g., nnUNet, MONAI, VoxelMorph) as well as general-purpose 3D computer vision models (e.g., PointNet, Minkowski Engine, Kaolin). These repositories provide code for segmentation, classification, detection, augmentation, and generative modeling.  
-
-- 📑 **Citation Information**  
-  BibTeX entry for citing our review paper if you use this repository or the resources listed here in your own research.  
+Our review provides:  
+- A **historical perspective** on how 3D medical imaging has advanced over the past decade  
+- **Comparative insights** into strengths, limitations, and performance across tasks such as segmentation, detection, classification, reconstruction, and report generation  
+- Discussion of **emerging research frontiers** including multimodal fusion, cross-institution generalization, and trustworthy AI for clinical adoption  
+- A **curated resource hub** for datasets and open-source code  
 
 ---
 
-By bringing these resources together, this repository aims to act as a **practical guide** for researchers, students, and practitioners who want to explore or build upon the rapidly evolving landscape of **3D medical image analysis**.  
+## 📚 Available Resources
 
+This repository collects practical resources to help researchers, students, and practitioners accelerate their work in 3D medical image analysis.
 
-## 1. Public 3D Medical Imaging Datasets
+### 📊 Public 3D Medical Imaging Datasets
+A curated list of openly available datasets covering MRI, CT, PET, and Ultrasound modalities.
 
 | Dataset Name | Modality | Task(s) | No. of Subjects / Scans | Access Link |
 |--------------|----------|---------|--------------------------|-------------|
@@ -45,7 +41,8 @@ By bringing these resources together, this repository aims to act as a **practic
 
 ---
 
-## 2. GitHub Codes for 3D Imaging AI Models
+### 🤖 GitHub Codes for 3D Imaging AI Models
+A collection of recent open-source implementations for 3D analysis — spanning medical imaging frameworks and general-purpose 3D computer vision libraries.
 
 | Repository | Model / Framework | Task(s) | Domain | Link |
 |------------|------------------|---------|--------|------|
@@ -58,18 +55,18 @@ By bringing these resources together, this repository aims to act as a **practic
 | PointNet/PointNet++ | Point Cloud Networks | Classification, Segmentation | General 3D | [PointNet](https://github.com/charlesq34/pointnet) |
 | 3D ResNets | 3D CNN Models | Classification, Action Recognition | General 3D | [3D ResNets](https://github.com/kenshohara/3D-ResNets-PyTorch) |
 | VoxelMorph | Learning-based Image Registration | Registration, Alignment | Medical Imaging | [VoxelMorph](https://github.com/voxelmorph/voxelmorph) |
-| Med-DDPM | Diffusion-based Generative Models | Synthesis, Segmentation | Medical Imaging | [Med-DDPM](https://github.com/voxelmorph/med-ddpm) |
+| Med-DDPM | Diffusion-based Generative Models | Synthesis, Segmentation | Medical Imaging | [Med-DDPM](https://github.com/mobaidoctor/med-ddpm) |
 
 ---
 
-## 3. Citation
+## 📑 Citation
 
-If you use this repository, please cite:
+If you use this repository or the resources, please cite our paper:
 
 ```bibtex
 @article{owais2025voxels,
   title={Voxels to Vision: A Comprehensive Review Tracing the Evolution of 3D Medical Imaging Analysis from Classic CNNs to Emerging Foundation Models},
-  author={Muhammad Owais, Muhammad Zubair, Daniya Najiha Abdul Kareem, Sana Akhtar Naseer,  Mehbub Alam, Mubashir Ahmad, and Irfan Hussain},
+  author={Muhammad Owais, Muhammad Zubair, Daniya Najiha Abdul Kareem, Sana Akhtar Naseer, Mehbub Alam, Mubashir Ahmad, and Irfan Hussain},
   journal={Preprint},
   year={2025}
 }
