@@ -27,18 +27,19 @@ This repository collects practical resources to help researchers, students, and 
 ### 📊 Public 3D Medical Imaging Datasets
 A curated list of openly available datasets covering MRI, CT, PET, and Ultrasound modalities.
 
-| Dataset Name | Modality | Task(s) | No. of Subjects / Scans | Access Link |
-|--------------|----------|---------|--------------------------|-------------|
-| BraTS (Brain Tumor Segmentation Challenge) | MRI (T1, T1ce, T2, FLAIR) | Segmentation, Classification | ~2000+ cases | https://www.med.upenn.edu/cbica/brats/ |
-| LUNA16 (LIDC-IDRI subset) | CT | Nodule Detection, Classification | 888 scans | Challenge: https://luna16.grand-challenge.org/ • Data: https://luna16.grand-challenge.org/Data/ |
-| Medical Segmentation Decathlon (MSD) | CT, MRI | Multi-organ Segmentation (10 tasks) | 2,633 scans | https://medicaldecathlon.com/ |
-| AMOS22 (Abdominal Multi-Organ Segmentation) | CT + MRI | Multi-organ Segmentation (15 organs) | 500 CT + 100 MRI | Challenge: https://amos22.grand-challenge.org/ • Data: https://zenodo.org/records/7262581 |
-| The Cancer Imaging Archive (TCIA) – Portal | CT, MRI, PET | Multi-task (various collections) | Many collections | https://www.cancerimagingarchive.net/ |
-| LIDC-IDRI (TCIA collection) | CT | Lung Nodule Detection/Analysis | 1,010 subjects | https://www.cancerimagingarchive.net/collection/lidc-idri/ |
-| BraTS-AFRICA (TCIA collection) | MRI (T1, T1ce, T2, FLAIR) | Brain Tumor Segmentation | 146 cases | https://www.cancerimagingarchive.net/collection/brats-africa/ |
-| MedMNIST v2 (3D subsets) | 3D biomedical (28×28×28) | Classification | 6 3D datasets (~10k total) | https://medmnist.com/v2 |
-| MedShapeNet | 3D anatomical shapes | Segmentation, Classification, Reconstruction | 100,000+ shapes | https://medshapenet.ikim.nrw/ |
-| OpenNeuro | MRI/fMRI/MEG/EEG/PET | Various neuroimaging tasks | 600+ datasets | https://openneuro.org |
+| Repository | Model / Framework | Task(s) | Domain | Link |
+|------------|------------------|---------|--------|------|
+| nnU-Net | Universal Segmentation Framework | 3D Segmentation | Medical Imaging | https://github.com/MIC-DKFZ/nnUNet |
+| MONAI | PyTorch-based Medical Imaging AI | Classification, Segmentation, Detection | Medical Imaging | https://github.com/Project-MONAI/MONAI |
+| TotalSegmentator | Segmentation of 100+ Anatomical Structures | Segmentation | Medical Imaging | https://github.com/wasserth/TotalSegmentator |
+| TorchIO | Data Augmentation & Preprocessing | Augmentation, Preprocessing | Medical Imaging | https://github.com/fepegar/torchio |
+| Kaolin (NVIDIA) | 3D Deep Learning Framework | Classification, Segmentation, Rendering | General 3D | https://github.com/NVIDIAGameWorks/kaolin |
+| Minkowski Engine | Sparse Convolutional Networks | 3D Detection, Segmentation | General 3D | https://github.com/NVIDIA/MinkowskiEngine |
+| PointNet/PointNet++ | Point Cloud Networks | Classification, Segmentation | General 3D | https://github.com/charlesq34/pointnet |
+| 3D ResNets | 3D CNN Models | Classification, Action Recognition | General 3D | https://github.com/kenshohara/3D-ResNets-PyTorch |
+| VoxelMorph | Learning-based Image Registration | Registration, Alignment | Medical Imaging | https://github.com/voxelmorph/voxelmorph |
+| Med-DDPM | Diffusion-based Generative Models | Synthesis, Segmentation | Medical Imaging | https://github.com/mobaidoctor/Med-DDPM |
+
 
 
 ---
