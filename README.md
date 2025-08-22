@@ -46,16 +46,17 @@ A collection of recent open-source implementations for 3D analysis — spanning 
 
 | Repository | Model / Framework | Task(s) | Domain | Link |
 |------------|------------------|---------|--------|------|
-| nnUNet | Universal Segmentation Framework | 3D Segmentation | Medical Imaging | [nnUNet](https://github.com/MIC-DKFZ/nnUNet) |
-| MONAI | PyTorch-based Medical Imaging AI | Classification, Segmentation, Detection | Medical Imaging | [MONAI](https://github.com/Project-MONAI/MONAI) |
-| TotalSegmentator | Segmentation of 100+ Anatomical Structures | Segmentation | Medical Imaging | [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) |
-| TorchIO | Data Augmentation & Preprocessing | Augmentation, Preprocessing | Medical Imaging | [TorchIO](https://github.com/fepegar/torchio) |
-| Kaolin (NVIDIA) | 3D Deep Learning Framework | Classification, Segmentation, Rendering | General 3D | [Kaolin](https://github.com/NVIDIAGameWorks/kaolin) |
-| Minkowski Engine | Sparse Convolutional Networks | 3D Detection, Segmentation | General 3D | [MinkowskiEngine](https://github.com/NVIDIA/MinkowskiEngine) |
-| PointNet/PointNet++ | Point Cloud Networks | Classification, Segmentation | General 3D | [PointNet](https://github.com/charlesq34/pointnet) |
-| 3D ResNets | 3D CNN Models | Classification, Action Recognition | General 3D | [3D ResNets](https://github.com/kenshohara/3D-ResNets-PyTorch) |
-| VoxelMorph | Learning-based Image Registration | Registration, Alignment | Medical Imaging | [VoxelMorph](https://github.com/voxelmorph/voxelmorph) |
-| Med-DDPM | Diffusion-based Generative Models | Synthesis, Segmentation | Medical Imaging | [Med-DDPM](https://github.com/mobaidoctor/med-ddpm) |
+| nnU-Net | Universal Segmentation Framework | 3D Segmentation | Medical Imaging | https://github.com/MIC-DKFZ/nnUNet |
+| MONAI | PyTorch-based Medical Imaging AI | Classification, Segmentation, Detection | Medical Imaging | https://github.com/Project-MONAI/MONAI |
+| TotalSegmentator | Segmentation of 100+ Anatomical Structures | Segmentation | Medical Imaging | https://github.com/wasserth/TotalSegmentator |
+| TorchIO | Data Augmentation & Preprocessing | Augmentation, Preprocessing | Medical Imaging | https://github.com/fepegar/torchio |
+| Kaolin (NVIDIA) | 3D Deep Learning Framework | Classification, Segmentation, Rendering | General 3D | https://github.com/NVIDIAGameWorks/kaolin |
+| Minkowski Engine | Sparse Convolutional Networks | 3D Detection, Segmentation | General 3D | https://github.com/NVIDIA/MinkowskiEngine |
+| PointNet/PointNet++ | Point Cloud Networks | Classification, Segmentation | General 3D | https://github.com/charlesq34/pointnet |
+| 3D ResNets | 3D CNN Models | Classification, Action Recognition | General 3D | https://github.com/kenshohara/3D-ResNets-PyTorch |
+| VoxelMorph | Learning-based Image Registration | Registration, Alignment | Medical Imaging | https://github.com/voxelmorph/voxelmorph |
+| Med-DDPM | Diffusion-based Generative Models | Synthesis, Segmentation | Medical Imaging | https://github.com/mobaidoctor/Med-DDPM |
+
 
 ---
 
