@@ -1,16 +1,16 @@
-# 🌐 3D-Medical-Imaging-Review
+# 3D-Medical-Imaging-Review
 
 ## Voxels to Vision: A Comprehensive Review Tracing the Evolution of 3D Medical Imaging Analysis from Classic CNNs to Emerging Foundation Models
 
 ---
 
-### 📖 About This Review
+### About This Review
 This repository serves as a companion resource to our review paper *"Voxels to Vision"*.  
 
 The paper traces the **evolution of 3D medical image analysis**, highlighting the transformation from early deep learning architectures to modern foundation models. Specifically, it covers:  
-- 🏛️ **Classic Deep Learning Models** – CNNs, RNNs, and early Transformers  
-- 🧪 **Generative Models** – VAEs, GANs, and diffusion models for synthesis, augmentation, and reconstruction  
-- 🌍 **Foundation Models** – multimodal architectures that integrate vision, language, and large-scale pre-training for universal medical imaging tasks  
+- **Classic Deep Learning Models** – CNNs, RNNs, and early Transformers  
+- **Generative Models** – VAEs, GANs, and diffusion models for synthesis, augmentation, and reconstruction  
+- **Foundation Models** – multimodal architectures that integrate vision, language, and large-scale pre-training for universal medical imaging tasks  
 
 Our review provides:  
 - A **historical perspective** on how 3D medical imaging has advanced over the past decade  
@@ -20,11 +20,11 @@ Our review provides:
 
 ---
 
-## 📚 Available Resources
+## Available Resources
 
 This repository collects practical resources to help researchers, students, and practitioners accelerate their work in 3D medical image analysis.
 
-### 📊 Public 3D Medical Imaging Datasets
+### Public 3D Medical Imaging Datasets
 A curated list of openly available datasets covering MRI, CT, PET, and Ultrasound modalities.
 
 | Dataset Name | Modality | Task(s) | No. of Subjects / Scans | Access Link |
@@ -46,7 +46,7 @@ A curated list of openly available datasets covering MRI, CT, PET, and Ultrasoun
 
 ---
 
-### 🤖 GitHub Codes for 3D Imaging AI Models
+### GitHub Codes for 3D Imaging AI Models
 A collection of recent open-source implementations for 3D analysis — spanning medical imaging frameworks and general-purpose 3D computer vision libraries.
 
 | Repository | Model / Framework | Task(s) | Domain | Link |
@@ -65,7 +65,7 @@ A collection of recent open-source implementations for 3D analysis — spanning 
 
 ---
 
-## 📑 Citation
+## Citation
 
 If you use this repository or the resources, please cite our paper:
 
