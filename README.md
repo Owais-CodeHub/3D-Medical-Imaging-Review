@@ -30,15 +30,16 @@ A curated list of openly available datasets covering MRI, CT, PET, and Ultrasoun
 | Dataset Name | Modality | Task(s) | No. of Subjects / Scans | Access Link |
 |--------------|----------|---------|--------------------------|-------------|
 | BraTS (Brain Tumor Segmentation Challenge) | MRI (T1, T1ce, T2, FLAIR) | Segmentation, Classification | ~2000+ cases | https://www.med.upenn.edu/cbica/brats/ |
-| LUNA16 (LIDC-IDRI subset) | CT | Nodule Detection, Classification | 888 scans | https://luna16.grand-challenge.org/ |
+| LUNA16 (LIDC-IDRI subset) | CT | Nodule Detection, Classification | 888 scans | Challenge: https://luna16.grand-challenge.org/ • Data: https://luna16.grand-challenge.org/Data/ |
 | Medical Segmentation Decathlon (MSD) | CT, MRI | Multi-organ Segmentation (10 tasks) | 2,633 scans | https://medicaldecathlon.com/ |
-| AMOS22 (Abdominal Multi-Organ Segmentation) | CT + MRI | Multi-organ Segmentation (15 organs) | 500 CT + 100 MRI | https://amos22.grand-challenge.org/ |
+| AMOS22 (Abdominal Multi-Organ Segmentation) | CT + MRI | Multi-organ Segmentation (15 organs) | 500 CT + 100 MRI | Challenge: https://amos22.grand-challenge.org/ • Data: https://zenodo.org/records/7262581 |
 | The Cancer Imaging Archive (TCIA) – Portal | CT, MRI, PET | Multi-task (various collections) | Many collections | https://www.cancerimagingarchive.net/ |
 | LIDC-IDRI (TCIA collection) | CT | Lung Nodule Detection/Analysis | 1,010 subjects | https://www.cancerimagingarchive.net/collection/lidc-idri/ |
 | BraTS-AFRICA (TCIA collection) | MRI (T1, T1ce, T2, FLAIR) | Brain Tumor Segmentation | 146 cases | https://www.cancerimagingarchive.net/collection/brats-africa/ |
 | MedMNIST v2 (3D subsets) | 3D biomedical (28×28×28) | Classification | 6 3D datasets (~10k total) | https://medmnist.com/v2 |
 | MedShapeNet | 3D anatomical shapes | Segmentation, Classification, Reconstruction | 100,000+ shapes | https://medshapenet.ikim.nrw/ |
 | OpenNeuro | MRI/fMRI/MEG/EEG/PET | Various neuroimaging tasks | 600+ datasets | https://openneuro.org |
+
 
 
 
