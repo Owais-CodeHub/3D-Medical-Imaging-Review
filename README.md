@@ -1,16 +1,16 @@
-# 3D-Medical-Imaging-Review
+# 🌐 3D-Medical-Imaging-Review
 
 ## Voxels to Vision: A Comprehensive Review Tracing the Evolution of 3D Medical Imaging Analysis from Classic CNNs to Emerging Foundation Models
 
 ---
 
-### About This Review
+### 📖 About This Review
 This repository serves as a companion resource to our review paper *"Voxels to Vision"*.  
 
 The paper traces the **evolution of 3D medical image analysis**, highlighting the transformation from early deep learning architectures to modern foundation models. Specifically, it covers:  
-- **Classic Deep Learning Models** – CNNs, RNNs, and early Transformers  
-- **Generative Models** – VAEs, GANs, and diffusion models for synthesis, augmentation, and reconstruction  
-- **Foundation Models** – multimodal architectures that integrate vision, language, and large-scale pre-training for universal medical imaging tasks  
+- 🏛️ **Classic Deep Learning Models** – CNNs, RNNs, and early Transformers  
+- 🧪 **Generative Models** – VAEs, GANs, and diffusion models for synthesis, augmentation, and reconstruction  
+- 🌍 **Foundation Models** – multimodal architectures that integrate vision, language, and large-scale pre-training for universal medical imaging tasks  
 
 Our review provides:  
 - A **historical perspective** on how 3D medical imaging has advanced over the past decade  
@@ -20,11 +20,11 @@ Our review provides:
 
 ---
 
-## Available Resources
+## 📚 Available Resources
 
 This repository collects practical resources to help researchers, students, and practitioners accelerate their work in 3D medical image analysis.
 
-### Public 3D Medical Imaging Datasets
+### 📊 Public 3D Medical Imaging Datasets
 A curated list of openly available datasets covering MRI, CT, PET, and Ultrasound modalities.
 
 | Dataset Name | Modality | Task(s) | No. of Subjects / Scans | Access Link |
@@ -46,7 +46,7 @@ A curated list of openly available datasets covering MRI, CT, PET, and Ultrasoun
 
 ---
 
-### GitHub Codes for 3D Imaging AI Models
+### 🤖 GitHub Codes for 3D Imaging AI Models
 A collection of recent open-source implementations for 3D analysis — spanning medical imaging frameworks and general-purpose 3D computer vision libraries.
 
 | Repository | Model / Framework | Task(s) | Domain | Link |
@@ -59,13 +59,54 @@ A collection of recent open-source implementations for 3D analysis — spanning 
 | Minkowski Engine | Sparse Convolutional Networks | 3D Detection, Segmentation | General 3D | https://github.com/NVIDIA/MinkowskiEngine |
 | PointNet/PointNet++ | Point Cloud Networks | Classification, Segmentation | General 3D | https://github.com/charlesq34/pointnet |
 | 3D ResNets | 3D CNN Models | Classification, Action Recognition | General 3D | https://github.com/kenshohara/3D-ResNets-PyTorch |
-| VoxelMorph | Learning-based Image Registration | Registration, Alignment | Medical Imaging | https://github.com/voxelmorph/voxelmorph |
+| 3D-UNet | CNN-based Models |  Segmentation | Medical Imaging | https://github.com/wolny/pytorch-3dunet |
+| Brain-MRI-Classification | CNN-based Models |  Segmentation | Medical Imaging | https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning |
+| Residual CNN | CNN-based Models |  Classification | Medical Imaging | https://github.com/neuro-ml/resnet_cnn_mri_adni |
+| 2.5D CNN | CNN-based Models |  Classification | Medical Imaging | https://github.com/shabanian2018/Age_MRI-Classification |
+| 3D-UXNet | CNN-based Models |  Segmentation | Medical Imaging | https://github.com/MASILab/3DUX-Net |
+| MedNeXT | CNN-based Models |  Segmentation | Medical Imaging | https://github.com/MIC-DKFZ/MedNeXt |
+| VoxelMorph | CNN-based Models | Registration, Alignment | Medical Imaging | https://github.com/voxelmorph/voxelmorph |
+| Recurrent 3D DenseUNet | RNN-based Models |  Segmentation | Medical Imaging | https://github.com/muntakimrafi/TIA2020-Recurrent-3D-DenseUNet |
+| Bi-directional RNN | RNN-based Models |  Segmentation | Medical Imaging | https://github.com/oopil/3D_medical_image_FSS |
+| RNN-NAD | RNN-based Models | Prediction | Medical Imaging | https://github.com/ThomasYeoLab/Standalone_Nguyen2020_RNNAD |
+| Brain-on-Cloud | RNN-based Models | Classification | Medical Imaging | https://github.com/airtlab/Brain-on-Cloud |
+| UNet-CRF-RNN | RNN-based Models | Segmentation | Medical Imaging | https://github.com/EsmeYi/UNet-CRF-RNN |
+| U-VixLSTM | RNN-based Models | Segmentation | Medical Imaging | https://github.com/duttapallabi2907/U-VixLSTM |
+| UNETR | Transformer-based Models | Segmentation | Medical Imaging | https://github.com/Project-MONAI/research-contributions/tree/main/UNETR/BTCV |
+| Swin-Unet | Transformer-based Models | Segmentation | Medical Imaging | https://github.com/HuCaoFighting/Swin-Unet |
+| TransUNet | Transformer-based Models | Segmentation | Medical Imaging | https://github.com/Beckschen/TransUNet |
+| Swin-UNETR | Transformer-based Models | Segmentation | Medical Imaging | https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR |
+| DwinFormer | Transformer-based Models | Segmentation | Medical Imaging | https://github.com/Daniyanaj/DWINFORMER |
+| nnFormer | Transformer-based Models | Segmentation | Medical Imaging | https://github.com/282857341/nnformer |
+| VT-UNet | Transformer-based Models | Segmentation | Medical Imaging | https://github.com/himashi92/vt-unet |
+| TransFuse | Transformer-based Models | Segmentation | Medical Imaging | https://github.com/Rayicer/TransFuse |
+| MedViT | Transformer-based Models | Classification | Medical Imaging | https://github.com/Rayicer/TransFuse |
+| UNETR++ | Transformer-based Models | Segmentation | Medical Imaging | https://github.com/Amshaker/unetr_plus_plus |
+| seGAN | GAN-based Models | Segmentation | Medical Imaging | https://github.com/YuanXue1993/SegAN |
+| GAN-Unet 3D| GAN-based Models | Segmentation | Medical Imaging | https://github.com/arnab39/FewShot_GAN-Unet3D |
+| f-Anogan | GAN-based Generative Models | Synthesis, Detection | Medical Imaging | https://github.com/tSchlegl/f-AnoGAN |
+| ResTransGAN | GAN-based Generative Models | Synthesis, Segmentation | Medical Imaging | https://github.com/bithuanglq/ResTransGAN  |
+| DiffMIC | Diffussion-based Generative Models | Classification | Medical Imaging | https://github.com/tSchlegl/f-AnoGAN |
+| MedsSegDiff | Diffussion-based Generative Models | Synthesis, Segmentation | Medical Imaging | https://github.com/SuperMedIntel/MedSegDiff |
 | Med-DDPM | Diffusion-based Generative Models | Synthesis, Segmentation | Medical Imaging | https://github.com/mobaidoctor/Med-DDPM |
+| 3D- MedDiffusion | Diffussion-based Generative Models | Synthesis | Medical Imaging | https://github.com/ShanghaiTech-IMPACT/3D-MedDiffusion?tab=readme-ov-file |
+| Diff-UNet | Diffussion-based Generative Models | Segmentation | Medical Imaging | https://github.com/ge-xing/Diff-UNet |
+| VAE-Seg | VAE-based Generative Models | Segmentation | Medical Imaging | https://github.com/IAmSuyogJadhav/3d-mri-brain-tumor-segmentation-using-autoencoder-regularization |
+| BiomedCLIP | Textually Prompted Foundation Models | Image retrieval, Image classification, Visual question-answering | Medical Imaging | https://github.com/microsoft/BiomedCLIP_data_pipeline |
+| MedBLIP | Textually Prompted Foundation Models | Zero-shot prediction tasks, Zero-shot Visual question-answering| Medical Imaging | https://github.com/Qybc/MedBLIP |
+| Med-Flamingo | Textually Prompted Foundation Models |  Visual question-answering | Medical Imaging | https://github.com/snap-stanford/med-flamingo |
+| LLaVa-Med | Textually Prompted Foundation Models |  Assisting Multi-modal Conversations, Biomedical Visual Question Answering | Medical Imaging |https://github.com/microsoft/LLaVA-Med |
+| UniMedCLIP | Textually Prompted Foundation Models |  Zero-shot Prediction Tasks | Medical Imaging |https://github.com/mbzuai-oryx/UniMed-CLIP |
+| Med3DVLM | Textually Prompted Foundation Models |  Visual question-answering | Medical Imaging |https://github.com/mirthAI/Med3DVLM |
+| MedSAM | Visually Prompted Foundation Models |  Zero-shot segmentation | Medical Imaging | https://github.com/bowang-lab/MedSAM |
+| SAM-Med3D | Visually Prompted Foundation Models |  Zero-shot segmentation | Medical Imaging | https://github.com/uni-medical/SAM-Med3D |
+| Med-SAM2 | Visually Prompted Foundation Models |  Zero-shot segmentation | Medical Imaging | https://github.com/bowang-lab/MedSAM2 |
+| MedPaLM | Visually Prompted Foundation Models |  Image classification, report summarization, report generation, visual question answering| Medical Imaging | https://github.com/kyegomez/Med-PaLM |
 
 
 ---
 
-## Citation
+## 📑 Citation
 
 If you use this repository or the resources, please cite our paper:
 
